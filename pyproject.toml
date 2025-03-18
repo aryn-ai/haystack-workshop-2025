@@ -1,0 +1,14 @@
+[project]
+name = "aryn-haystack"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.9.2, <3.13"
+dependencies = [
+    "aryn-sdk",
+    "jupyterlab>=4.3.6",
+    "sycamore-ai",
+]
+
+[tool.uv.sources]
+sycamore-ai = { path = "sycamore/lib/sycamore" }
+aryn-sdk = { path = "sycamore/lib/aryn-sdk" }
