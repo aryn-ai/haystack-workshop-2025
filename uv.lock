@@ -300,34 +300,28 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "aryn-sdk", directory = "sycamore/lib/aryn-sdk" },
+    { name = "aryn-sdk", specifier = ">=0.2.0" },
     { name = "jupyterlab", specifier = ">=4.3.6" },
     { name = "sycamore-ai", extras = ["local-inference"], directory = "sycamore/lib/sycamore" },
 ]
 
 [[package]]
 name = "aryn-sdk"
-version = "0.1.17"
-source = { directory = "sycamore/lib/aryn-sdk" }
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
+    { name = "httpx" },
     { name = "numpy" },
     { name = "packaging" },
     { name = "pandas" },
     { name = "pdf2image" },
     { name = "pillow" },
+    { name = "pydantic" },
     { name = "pyyaml" },
-    { name = "requests" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "numpy", specifier = ">=1.21.5" },
-    { name = "packaging", specifier = ">=24.1,<25.0" },
-    { name = "pandas", specifier = ">=2.0" },
-    { name = "pdf2image", specifier = ">=1.16.3,<2.0.0" },
-    { name = "pillow", specifier = ">=11.1.0" },
-    { name = "pyyaml", specifier = ">=6.0.1,<7.0.0" },
-    { name = "requests", specifier = ">=2.32,<3.0" },
+sdist = { url = "https://files.pythonhosted.org/packages/eb/73/81ee184bd5e584b3b112bee0d135457aeff129c2a23fb94a01b4cbff0adb/aryn_sdk-0.2.0.tar.gz", hash = "sha256:4cc76daaca17da13ec594b3d2e3b0e1f53eebe0df734e2b71b40fe3504678bea", size = 1270228 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/28/8d/84dc338ed8ffffb35db43029f249837ee827b91b8d128a65e4ea8dcaa71d/aryn_sdk-0.2.0-py3-none-any.whl", hash = "sha256:4dc812847c34504c03adb0a5200ea5393ddfb05988a9f18bf4ac8f0a8cd6594c", size = 1293136 },
 ]
 
 [[package]]
