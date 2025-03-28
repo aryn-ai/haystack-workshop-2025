@@ -303,7 +303,7 @@ dependencies = [
 requires-dist = [
     { name = "aryn-sdk", specifier = ">=0.2.0" },
     { name = "jupyterlab", specifier = ">=4.3.6" },
-    { name = "sycamore-ai", extras = ["local-inference"], directory = "sycamore/lib/sycamore" },
+    { name = "sycamore-ai", extras = ["local-inference"], editable = "sycamore/lib/sycamore" },
 ]
 
 [[package]]
@@ -4381,8 +4381,13 @@ wheels = [
 
 [[package]]
 name = "sycamore-ai"
+<<<<<<< HEAD
 version = "0.1.30"
 source = { directory = "sycamore/lib/sycamore" }
+=======
+version = "0.1.31"
+source = { editable = "sycamore/lib/sycamore" }
+>>>>>>> main
 dependencies = [
     { name = "aiohttp" },
     { name = "amazon-textract-textractor" },
