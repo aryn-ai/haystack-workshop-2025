@@ -6,6 +6,7 @@ requires-python = ">=3.9.2, <3.13"
 dependencies = [
     "aryn-sdk>=0.2.0",
     "jupyterlab>=4.3.6",
+    "rich[jupyter]>=13.9.4",
     "sycamore-ai[local-inference]",
 ]
 
