@@ -7,4 +7,5 @@ Aryn Haystack 2025 Workshop
 3. Clone this repository `git clone git@github.com:aryn-ai/haystack-workshop-2025.git && cd haystack-workshop-2025`
 4. Pull the sycamore submodule `git submodule update --init --recursive`
 5. Set up python venv with uv `uv sync`
-6. Open jupyter with `make notebook`
+6. Download required data with `make downloads`
+7. Open jupyter with `make notebook`
