@@ -1,3 +1,3 @@
 [submodule "sycamore"]
 	path = sycamore
-	url = git@github.com:aryn-ai/sycamore.git
+	url = https://github.com/aryn-ai/sycamore.git
