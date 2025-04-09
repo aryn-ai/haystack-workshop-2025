@@ -12,7 +12,6 @@ download_documents:
 	@uv run scripts/download_data.py
 
 download_materialized_partitioned:
-	@uvx wget -P materialize https://aryn-public.s3.us-east-1.amazonaws.com/haystack_documents/alldocs-partitioned.tar.xz
-	@cd materialize && tar -xJf alldocs-partitioned.tar.xz
+	@uv run scripts/download_materialize.py
 
 downloads: download_documents download_materialized_partitioned
