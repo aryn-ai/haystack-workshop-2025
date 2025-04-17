@@ -8,11 +8,14 @@ Aryn Haystack 2025 Workshop
 4. Pull the sycamore submodule `git submodule update --init`. This pulls down the sycamore source code, which means I don't have to make a release with every tweak while developing the workshop.
 5. Set up python venv with uv `uv sync`
 6. Download required data with `make downloads`. This includes 92 earnings call transcripts and a materialize directory (more on that in the tutorial)
-7. Get an Aryn api key and an OpenAI api key. Export them as environment variables:
+7. Get an Aryn api key. Navigate to https://console.aryn.ai/signup/ to sign up. Once you login you can navigate to Keys to get your key. 
+8. Get an OpenAI api key by signing up here: https://auth.openai.com/log-in. Once you login you can navigate to 'API Keys' to get your key. 
+9. Export them as environment variables:
 
 ```bash
 export ARYN_API_KEY="<key>"
 export OPENAI_API_KEY="<key>"
 ```
 
-8. Open jupyter with `make notebook`
+10. Open jupyter with `make notebook`
+11. Navigate to workshop_nb_1.ipynb.
