@@ -8,8 +8,6 @@ dependencies = [
     "devtools>=0.12.2",
     "jupyterlab>=4.3.6",
     "rich[jupyter]>=13.9.4",
-    "sycamore-ai[local-inference]",
+    "sycamore-ai[local-inference]==0.1.32",
 ]
 
-[tool.uv.sources]
-sycamore-ai = { path = "sycamore/lib/sycamore", editable = true }
