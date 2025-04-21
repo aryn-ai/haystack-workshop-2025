@@ -17,4 +17,4 @@ export OPENAI_API_KEY="<key>"
 ```
 
 9. Open jupyter with `make notebook`
-10. Navigate to workshop_nb_1.ipynb.
+10. Navigate to workshop_nb_0.ipynb.
